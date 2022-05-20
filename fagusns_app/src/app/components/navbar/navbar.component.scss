@@ -1,0 +1,46 @@
+.navbar-static {
+  background-color: transparent;
+  color: #fff
+}
+
+.navbar-scroll {
+  background-color: rgba($color: #fff, $alpha: .8);
+  color: #000
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  color: #fff;
+  backdrop-filter: blur(4px);
+
+  p {
+    padding: 20px 0;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav__logo {
+    margin-right: 250px;
+
+    .nav__logo-name {
+      font-weight: 500;
+    }
+  }
+
+  .nav__links {
+    p {
+      margin-right: 30px;
+    }
+  }
+
+
+}
