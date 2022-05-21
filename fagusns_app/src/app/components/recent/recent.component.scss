@@ -1,0 +1,38 @@
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
+  background-color: rgb(32, 32, 32);
+  color: #fff;
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px !important;
+  }
+
+  .recent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+      max-width: 390px;
+    }
+
+    img {
+      height: 240px;
+      width: 390px;
+      object-fit: cover;
+    }
+
+    h2 {
+      margin-top: 10px;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+  }
+}

@@ -4,7 +4,7 @@
 }
 
 .navbar-scroll {
-  background-color: rgba($color: #fff, $alpha: .8);
+  background-color: rgba($color: #fff, $alpha: .95);
   color: #000
 }
 
@@ -20,6 +20,7 @@ nav {
 
   p {
     padding: 20px 0;
+    margin-bottom: 0;
   }
 
   div {
@@ -30,15 +31,18 @@ nav {
 
   .nav__logo {
     margin-right: 250px;
+    font-size: 1.1rem;
 
     .nav__logo-name {
-      font-weight: 500;
+      font-weight: 600;
     }
   }
 
   .nav__links {
+    font-weight: 500;
+
     p {
-      margin-right: 30px;
+      margin-right: 30px !important;
     }
   }
 
