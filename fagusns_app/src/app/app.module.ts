@@ -12,6 +12,18 @@ import { RecentComponent } from './components/recent/recent.component';
 import { CompanyComponent } from './components/company/company.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PartnersComponent } from './components/partners/partners.component';
+import { HomeComponent } from './components/home/home.component';
+import { PocetnaComponent } from './components/pocetna/pocetna.component';
+import { NavbarrsComponent } from './components/navbarrs/navbarrs.component';
+import { LandingrsComponent } from './components/landingrs/landingrs.component';
+import { AboutrsComponent } from './components/aboutrs/aboutrs.component';
+import { WorkrsComponent } from './components/workrs/workrs.component';
+import { RecentrsComponent } from './components/recentrs/recentrs.component';
+import { CompanyrsComponent } from './components/companyrs/companyrs.component';
+import { ContactrsComponent } from './components/contactrs/contactrs.component';
+import { PartnerrsComponent } from './components/partnerrs/partnerrs.component';
+import { FooterrsComponent } from './components/footerrs/footerrs.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +35,19 @@ import { FooterComponent } from './components/footer/footer.component';
     RecentComponent,
     CompanyComponent,
     ContactComponent,
-    FooterComponent
+    PartnersComponent,
+    FooterComponent,
+    HomeComponent,
+    PocetnaComponent,
+    NavbarrsComponent,
+    LandingrsComponent,
+    AboutrsComponent,
+    WorkrsComponent,
+    RecentrsComponent,
+    CompanyrsComponent,
+    ContactrsComponent,
+    PartnerrsComponent,
+    FooterrsComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
